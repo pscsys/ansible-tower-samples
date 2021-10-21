@@ -1,4 +1,5 @@
 - name: Hello World Sample
   hosts: all
+  become: yes
   roles:
     - role: adriagalin.motd
